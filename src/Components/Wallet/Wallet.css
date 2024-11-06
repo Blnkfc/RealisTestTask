@@ -7,5 +7,6 @@
   align-items: center;
 }
 .wallet__wrapper__info img {
+  border-radius: 0.5em;
   width: 3em;
 }/*# sourceMappingURL=Wallet.css.map */

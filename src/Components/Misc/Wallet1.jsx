@@ -4,8 +4,8 @@ export const Wallet1 = () => {
     const walletInfo = useSelector((state) => state.wallet.value)
     console.log(walletInfo)
     return(
-        <>
-        <p style={{color:'green', maxWidth: '100%' }} > {walletInfo} </p>
-        </>
+        <div>
+            <p style={{color:'green', width: '100%', overflowWrap: 'anywhere'}} > {walletInfo} </p>
+        </div>
     )
 }
