@@ -1,0 +1,11 @@
+.wallet__wrapper {
+  width: 100%;
+}
+.wallet__wrapper__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet__wrapper__info img {
+  width: 3em;
+}/*# sourceMappingURL=Wallet.css.map */

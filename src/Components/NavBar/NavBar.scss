@@ -1,0 +1,27 @@
+.navBar{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    
+    a{
+        border-radius: 1em;
+        &.active{
+            background: rgb(32,86,176);
+            background: linear-gradient(133deg, rgba(32,86,176,1) 0%, rgba(165,84,227,1) 100%);
+            filter: drop-shadow(0 0 0.3em);
+            img, p{
+                filter: brightness(0) saturate(100%)
+            }
+        }
+        padding: 1em;
+        &:hover{
+            border: solid 1px gray;
+        }
+        img{
+            width: 3em;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.navBar {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.navBar a {
+  border-radius: 1em;
+  padding: 1em;
+}
+.navBar a.active {
+  background: rgb(32, 86, 176);
+  background: linear-gradient(133deg, rgb(32, 86, 176) 0%, rgb(165, 84, 227) 100%);
+  filter: drop-shadow(0 0 0.3em);
+}
+.navBar a.active img, .navBar a.active p {
+  filter: brightness(0) saturate(100%);
+}
+.navBar a:hover {
+  border: solid 1px gray;
+}
+.navBar a img {
+  width: 3em;
+}
+.navBar a p {
+  margin: 0;
+}/*# sourceMappingURL=NavBar.css.map */
