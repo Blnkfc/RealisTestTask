@@ -5,7 +5,7 @@ import { Header } from './Components/Header';
 function App() {
 
   return (
-    <TonConnectUIProvider manifestUrl='https://raw.githubusercontent.com/Blnkfc/RealisTestTask/refs/heads/main/manifest.json' >
+    <TonConnectUIProvider manifestUrl='https://raw.githubusercontent.com/Blnkfc/RealisTestTask/refs/heads/main/tonconnect-manifest.json' >
       <Header />
       <Wallet />
 
