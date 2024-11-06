@@ -53,7 +53,7 @@ const initializeTelegramSDK = async () => {
       initData: parseInitData(initDataRaw),
       initDataRaw,
       version: '7.2',
-      platform: 'tdesktop',
+      platform: 'tandroid',
     });
 
     console.log('Mock Telegram environment initialized');
